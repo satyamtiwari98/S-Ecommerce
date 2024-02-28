@@ -1,7 +1,9 @@
 import "./App.css";
 import Header from "./Components/Header";
+import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
+import User from "./Components/User";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Login />
       <hr></hr>
       <Signup />
+      <hr />
+      <Home />
     </>
   );
 }
